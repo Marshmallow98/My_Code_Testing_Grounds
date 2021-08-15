@@ -38,12 +38,12 @@ using System;
                 if (response == "sword")
                 {
                     Console.WriteLine("you strike the door with a foracious blow");
-                    doorhealth = doorHealth - 3;
+                    doorHealth = doorHealth - 3;
                 }
                 else if (response == "fire spell")
                 {
                     Console.WriteLine("you hit the door with a fiery force");
-                    doorhealth = doorHealth - 5;
+                    doorHealth = doorHealth - 5;
                 }
                 else if (response == "check door")
                 {
@@ -92,7 +92,7 @@ using System;
                     if (throughDoor == true)
                     {
                         Console.WriteLine("youve done it! you walked through the door");
-                        hasWOn = true;
+                        hasWon = true;
                     }
                     else if (hasKey == true)
                     {
